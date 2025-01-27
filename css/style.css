@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Anek Bangla", sans-serif, 'Times New Roman', Times, serif;
+    font-family: "Anek Bangla", sans-serif;
 }
 body{
     background-color: #ffffff;
@@ -19,10 +19,29 @@ a{
     background-color: #f5f5f5;
     padding: 10px 0px;
 }
+.contact a{
+    font-size: 12px;
+}
 .contact a:hover{
-    color: #ff0000 !important;
+    color: #e95353 !important;
+}
+header h6{
+    font-size: 12px;
+}
+.social-icon a{
+    font-size: 12px;
 }
 .social-icon a:hover{
-    color: #ff0000 !important;
+    color: #e95353 !important;
+}
+.navbar ul li a{
+    font-size: 18px;
+    color: black;
+}
+.navbar ul li a:hover{
+    color: #e95353 !important;
+}
+.user i:hover{
+    color: #e95353 !important;
 }
 /* ============================== header style end ============================ */

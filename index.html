@@ -12,12 +12,12 @@
 </head>
 <body>
   <!-- ============================= header start ============================ -->
-  <header>
+  <header class=" shadow-sm bg-gradient sticky-top ">
     <!-- ================ top header start ================ -->
     <div class="container-fluid px-5 d-flex justify-content-between align-item-center top-header">
       <div class="contact d-flex justify-content-between align-item-center gap-3">
         <a class="text-muted" href="tel:">+88 01737083674</a>
-          <a class="text-muted" href="mailto:">info.Ston-Fashion.com</a>
+        <a class="text-muted" href="mailto:">info.Ston-Fashion.com</a>
       </div>
       <h6 class="text-muted">FREE SHIPPING - on all orders over $35*</h6>
       <div class="social-icon gap-3 d-flex align-item-center justify-content-between">
@@ -30,43 +30,107 @@
     </div>
     <!-- ================== top header end ================== -->
     <!-- ================= navbar start ================ -->
-    <nav class="navbar navbar-expand-md px-5">
-      <div class="container-fluid px-0">
-        <a class="navbar-brand" href="http://192.168.0.103:5500/index.html"><img src="./asset/android-chrome-192x192.png" alt="brand-icon" style="height: 70px; width: 70px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav m-auto navbar-nav-scroll">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Link</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Link</a>
-            </li>
-          </ul>              
+    <nav class="navbar px-5 py-0 my-0">
+      <div class="container-fluid px-0 d-flex justify-content-between align-item-center">
+        <a class="navbar-brand" href="#"><img src="./asset/android-chrome-192x192.png" alt="" style="height: 70px; width: 70px"></a>
+        <div class="navbar-expand-md">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <!-- ================= navbar list start ================ -->
+            <ul class="navbar-nav gap-5">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <!-- ================= navbar list end ================ -->
+          </div>  
         </div>
-        <div class="d-flex">
-          <div class="offcanvas">
-            
+        <div class="user d-flex justify-content-between align-item-center gap-3">
+          <!-- offanvas 1 start -->
+          <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </button>
+          <div class="offcanvas offcanvas-start d-flex align-item-center justify-content-center" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <form class="d-flex px-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn" style="background-color: #e95353;" type="submit">Search</button>
+            </form>
           </div>
-        </div>
-      </div>
+          <!-- offanvas 1 end -->
+          <a class="text-dark" href=""><i class="fa-regular fa-heart fa-1.22x"></i></a>
+          <a class="text-dark" href=""><i class="fa-solid fa-bag-shopping fa-1.22x"></i></a>
+          <a class="text-dark" href=""><i class="fa-regular fa-user fa-1.22x"></i></a>
+          <!-- offanvas 2 start -->
+          <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar1" aria-labelledby="offcanvasNavbarLabel">
+            <button type="button" class="border-0 d-flex align-items-baseline justify-content-end bg-transparent pe-2" data-bs-dismiss="offcanvas">
+              <i class="fa-solid fa-xmark fa-2x"></i>
+            </button>
+            <div class="offcanvas-body">
+              <a class="navbar-brand" href="#"><img src="./asset/android-chrome-192x192.png" alt="" style="height: 70px; width: 70px"></a>
+              <p class="fw-light">We believe brand interaction is key in commu- nication. Real inno vations and a positive customer experience are the heart of successful commu- nication.</p>
+              <h3>Contact Us</h3>
+              <ul class="list-unstyled lh-lg">
+                <li><span><i class="fa-solid fa-location-dot pe-2"></i></span>Address: 1234 NY, United States.</li>
+                <li><span><i class="fa-solid fa-phone pe-2"></i></span>Phone: 123-456-7890</li>
+                <li><span><i class="fa-solid fa-envelope pe-2"></i></span>Email: 5QJZc@example.com</li>
+              </ul>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn" style="background-color: #e95353;" type="button" id="button-addon2"><i class="fa-solid fa-right-long"></i></button>
+              </div>
+              <div class="icon d-flex justify-content-start align-item-center gap-3 pt-3">
+                <a href="#"><i class="fa-brands fa-facebook fa-2x text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-2x text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2x text-dark"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-2x text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- offanvas 2 end -->
+        </div>  
+      </div>      
     </nav> 
+    <!-- ================= navbar end ================ -->
   </header>
-  <!-- ================================ header end ============================================= -->
+  <!-- ================================ header end =============================== -->
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
