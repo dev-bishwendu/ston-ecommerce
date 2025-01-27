@@ -24,15 +24,23 @@ a{
 }
 .contact a:hover{
     color: #e95353 !important;
+    text-decoration: underline;
 }
 header h6{
     font-size: 12px;
+    padding-right: 150px;
 }
-.social-icon a{
+.social-icon a i{
     font-size: 12px;
 }
 .social-icon a:hover{
     color: #e95353 !important;
+}
+.navbar{
+    background-color: #ffffff;
+}
+.navbar span, a i{
+    font-size: 20px;
 }
 .navbar ul li a{
     font-size: 18px;
@@ -44,4 +52,44 @@ header h6{
 .user i:hover{
     color: #e95353 !important;
 }
+.close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 /* ============================== header style end ============================ */
+
+/* ============================== banner style start ============================ */
+.carousel-itemimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    text-align: center; 
+}
+.carousel-caption h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+.carousel-caption h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+}
+.carousel-caption button{
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 70px;
+    margin-top: 20px;
+}
+.carousel-caption button:hover{
+    background-color: #e95353;
+    color: #ffffff;
+}
+/* ============================== banner style end ============================ */

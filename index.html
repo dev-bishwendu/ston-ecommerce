@@ -12,10 +12,10 @@
 </head>
 <body>
   <!-- ============================= header start ============================ -->
-  <header class=" shadow-sm bg-gradient sticky-top ">
+  <header class="bg-gradient sticky-top ">
     <!-- ================ top header start ================ -->
     <div class="container-fluid px-5 d-flex justify-content-between align-item-center top-header">
-      <div class="contact d-flex justify-content-between align-item-center gap-3">
+      <div class="contact d-flex justify-content-between align-item-center gap-1">
         <a class="text-muted" href="tel:">+88 01737083674</a>
         <a class="text-muted" href="mailto:">info.Ston-Fashion.com</a>
       </div>
@@ -31,7 +31,7 @@
     <!-- ================== top header end ================== -->
     <!-- ================= navbar start ================ -->
     <nav class="navbar px-5 py-0 my-0">
-      <div class="container-fluid px-0 d-flex justify-content-between align-item-center">
+      <div class="container-fluid px-0 py-0 d-flex justify-content-between align-item-center nav-bar">
         <a class="navbar-brand" href="#"><img src="./asset/android-chrome-192x192.png" alt="" style="height: 70px; width: 70px"></a>
         <div class="navbar-expand-md">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll"  aria-expanded="false" aria-label="Toggle navigation">
@@ -85,16 +85,19 @@
           <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span><i class="fa-solid fa-magnifying-glass"></i></span>
           </button>
-          <div class="offcanvas offcanvas-start d-flex align-item-center justify-content-center" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <form class="d-flex px-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <div class="offcanvas offcanvas-start d-flex align-item-center justify-content-center bg-transparent border-0 w-100 h-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <button type="button" class="border-0 d-flex align-items-baseline justify-content-end bg-transparent pe-2 close" data-bs-dismiss="offcanvas">
+              <i class="fa-solid fa-xmark fa-2x"></i>
+            </button>
+            <form class="d-flex align-item-center justify-content-center w-100 form" role="search">
+              <input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search">
               <button class="btn" style="background-color: #e95353;" type="submit">Search</button>
             </form>
           </div>
           <!-- offanvas 1 end -->
-          <a class="text-dark" href=""><i class="fa-regular fa-heart fa-1.22x"></i></a>
-          <a class="text-dark" href=""><i class="fa-solid fa-bag-shopping fa-1.22x"></i></a>
-          <a class="text-dark" href=""><i class="fa-regular fa-user fa-1.22x"></i></a>
+          <a class="text-dark" href=""><i class="fa-regular fa-heart"></i></a>
+          <a class="text-dark" href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <a class="text-dark" href=""><i class="fa-regular fa-user"></i></a>
           <!-- offanvas 2 start -->
           <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar1" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span><i class="fa-solid fa-bars"></i></span>
@@ -131,6 +134,49 @@
     <!-- ================= navbar end ================ -->
   </header>
   <!-- ================================ header end =============================== -->
+  <section class="banner">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./asset/49e508bd-25bf-47b6-972c-49119337732e.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>30% OFF</h2>
+            <h1>Favourite Clothing</h1>
+            <button class="btn">Get it Now<span class="ps-2"><i class="fa-solid fa-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/6ba2ecef-ed51-48dd-b6be-91b1fdf0d219.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>30% OFF</h2>
+            <h1>Favourite Clothing</h1>
+            <button class="btn">Get it Now<span class="ps-2"><i class="fa-solid fa-right-long"></i></span></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/49e508bd-25bf-47b6-972c-49119337732e.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>30% OFF</h2>
+            <h1>Favourite Clothing</h1>
+            <button class="btn">Get it Now<span class="ps-2"><i class="fa-solid fa-right-long"></i></span></button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
