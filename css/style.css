@@ -172,6 +172,9 @@ header h6{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.new-arrival-card .card{
+    border: none;
+}
 .card-head img{
     width: 100%;
     height: 80%;
@@ -180,4 +183,42 @@ header h6{
     background-position: center center;
     background-repeat: no-repeat;
 }
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.new-arrival-btn{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 120px;
+}
+.new-arrival-btn:hover{
+    background-color: #e95353;
+    color: #ffffff;
+}
 /* ============================== new arrival style end ============================ */
+
+/* ============================== spring-sale style start ============================ */
+.spring-sale-container{
+    background-image: url('../asset/spring\ sale.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spring-sale-btn{
+    background-color: #f06969;
+    color: #ffffff;
+    padding: 10px 70px;
+}
+.spring-sale-btn:hover{
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
