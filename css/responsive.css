@@ -26,6 +26,24 @@
         display: none !important;
     }
     /* =============================== banner end =============================== */
+
+    /* =============================== sub banner start =============================== */
+    .sub-banner-container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .card{
+        width: 90vw !important;
+        margin-inline: 2% !important;
+    }
+    /* =============================== sub banner end =============================== */
+
+    /* =============================== new arrival start =============================== */
+    .new-arrival-container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    /* =============================== new arrival end =============================== */
 }
 @media (min-width: 768px) and (max-width: 1199px)
 {
@@ -49,4 +67,10 @@
         padding: 10px 20px !important;
     }
     /* =============================== banner end =============================== */
+
+    /* =============================== new arrival start =============================== */
+    .new-arrival-container{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    /* =============================== new arrival end =============================== */
 }

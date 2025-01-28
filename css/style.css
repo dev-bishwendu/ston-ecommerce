@@ -12,6 +12,9 @@ body{
 a{
     text-decoration: none;
 }
+.mt{
+    margin-top: 100px;
+}
 /*============================== global style end ============================  */
  
 /* ============================== header style start ============================ */
@@ -20,6 +23,9 @@ a{
     padding: 10px 0px;
 }
 .contact a{
+    font-size: 12px;
+}
+.contact a i{
     font-size: 12px;
 }
 .contact a:hover{
@@ -93,3 +99,85 @@ header h6{
     color: #ffffff;
 }
 /* ============================== banner style end ============================ */
+
+/* ============================== sub-banner style start ============================ */
+.sub-banner-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-1,.card-2,.card-3{
+    border: none;
+    border-radius: 10px;
+    height: 15rem;
+    color: #ffffff;
+}
+.card-1{
+    background-image: url('../asset/sub-banner\ 1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url('../asset/sub-banner\ 2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background-image: url('../asset/sub-banner\ 3.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.card h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.card p{
+    font-size: 20px;
+}
+.card-body{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.card-body:hover{
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.card-body a{
+    padding: 0px;
+}
+/* ============================== sub-banner style end ============================ */
+
+/* ============================== new arrival style start ============================ */
+.new-arrival h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.new-arrival p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.new-arrival-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-head img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* ============================== new arrival style end ============================ */
