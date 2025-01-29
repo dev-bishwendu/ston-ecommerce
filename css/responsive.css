@@ -46,6 +46,9 @@
     /* =============================== new arrival end =============================== */
 
     /* =============================== spring sale start =============================== */
+    .spring-sale{
+        margin-top: 30px !important;
+    }
     .spring-sale-container h1{
         font-size: 30px !important;
     }
@@ -53,6 +56,12 @@
         font-size: 20px !important;
     }
     /* =============================== spring sale end =============================== */
+
+    /* =============================== tranding now start ============================== */
+    .tranding-now-container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 1199px)
 {
@@ -82,4 +91,10 @@
         grid-template-columns: repeat(2, 1fr) !important;
     }
     /* =============================== new arrival end =============================== */
+    
+    /* ============================== tranding now start ============================== */
+    .tranding-now-container{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    /* =============================== tranding now end ============================== */
 }
