@@ -6,6 +6,7 @@
     <title>Ston-Fashion, simplicity & elegence</title>
     <link rel="shortcut icon" href="./asset/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -424,20 +425,39 @@
     <!-- =============================== tranding now end ============================== -->
     
     <!-- =============================== collection start ============================== -->
-    <section class="collection container mt">
-      <h2 class="text-center">Collections</h2>
-      <div class="collection-list pt-5">
-        <div class="collection-img-1">
-          <h2 class="text-uppercase">fashion clothing</h2>
-          <button class="btn text-uppercase collection-btn pt-2">shop now <i class="fa-solid fa-right-long"></i></button>
-        </div>
-        <div class="collection-img-2">
-          <h2 class="text-uppercase">accessories</h2>
-          <button class="btn text-uppercase collection-btn pt-2">shop now <i class="fa-solid fa-right-long"></i></button>
-        </div>
+    <section class="collections mt">
+      <div class="container">
+          <h1 class="text-center">Coleections</h1>
+          <div class="collectin-list pt-5">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slide-1">
+                  <h2>Fashion Clothing</h2>
+                  <button class="btn text-center">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="swiper-slide slide-2">
+                  <h2>Accessories</h2>
+                  <button class="btn text-center">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="swiper-slide slide-1">
+                  <h2>Fashion Clothing</h2>
+                  <button class="btn text-center">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="swiper-slide slide-2">
+                  <h2>Accessories</h2>
+                  <button class="btn text-center">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
       </div>
-    </section> 
-
+    </section>  
+    <!-- =============================== collection end ============================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
