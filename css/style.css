@@ -9,6 +9,10 @@
 body{
     background-color: #ffffff;
 }
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
 a{
     text-decoration: none;
 }
@@ -132,7 +136,6 @@ header h6{
 }
 .card h2{
     font-size: 40px;
-    font-weight: bolder;
 }
 .card p{
     font-size: 20px;
@@ -159,10 +162,6 @@ header h6{
 /* ============================== sub-banner style end ============================ */
 
 /* ============================== new arrival style start ============================ */
-.new-arrival h1{
-    font-size: 50px;
-    font-weight: bolder;
-}
 .new-arrival p{
     font-size: 20px;
     font-weight: bold;
@@ -269,26 +268,73 @@ header h6{
 }
 .swiper-slide{
     text-align: center;
-    font-size: 18px;
     background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.swiper-slide h2{
+    font-size: 40px;
+}
 .slide-1{
     background-image: url('../asset/collection\ 1.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    height: 65vh;
 }
 .slide-2{
     background-image: url('../asset/collection\ 2.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 70vh;
+    height: 65vh;
 }
-
+.swiper-btn{
+    background-color: #ffffff;
+    color: rgb(14, 14, 14);
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.swiper-btn:hover{
+    background-color: rgb(14, 14, 14);
+    color: #ffffff;
+}
+.swiper-pagination{
+    display: none;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: #ffffff;
+    font-size: 12px;
+}
 /* ============================= collection style end ============================ */
+
+/* ============================= sb banner style start ============================ */
+.sb-banner-container{
+    background-image: url('../asset/sb\ banner.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.text-1{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    border-right: 1px solid #d64b4b;
+}
+.text-2{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding-left: 40px;
+}
+/* ============================= sb banner style end ============================ */

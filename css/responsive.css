@@ -7,7 +7,7 @@
     .nav-bar{
         justify-content: space-between !important;
     }
-    .navbar-expand-md{
+    .display{
         display: none !important;
     }
     .user .form{
@@ -62,6 +62,11 @@
         display: flex !important;
         flex-direction: column !important;
     }
+
+    /* =============================== tranding now end ============================== */
+
+    /* =============================== collection start ============================== */
+    
 }
 @media (min-width: 768px) and (max-width: 1199px)
 {
