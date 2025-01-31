@@ -95,6 +95,30 @@
         padding-top: 15px !important;
     }
     /* =============================== instagram start ============================== */
+
+    /* =============================== before-footer start ============================== */
+    .before-footer{
+        height: 100% !important;
+    }
+    .before-footer-container{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+    }
+    .footer-item p{
+        font-size: 10px !important;
+    }
+    /* =============================== before-footer end ============================== */
+
+    /* =============================== footer start ============================== */
+    .footer{
+        flex-direction: column !important;
+    }
+    .social-icon{
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+    /* =============================== footer end ============================== */
     
 }
 @media (min-width: 768px) and (max-width: 1199px)
@@ -147,4 +171,10 @@
         margin-left: 10px !important;
     }
     /* =============================== article end ============================== */
+
+    /* =============================== footer start ============================== */
+    .footer{
+        flex-direction: column !important;
+    }
+    /* =============================== footer end ============================== */
 }
