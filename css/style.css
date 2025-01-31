@@ -11,7 +11,7 @@ body{
 }
 h1{
     font-size: 50px;
-    font-weight: bolder;
+    text-transform: capitalize;
 }
 a{
     text-decoration: none;
@@ -327,7 +327,7 @@ header h6{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 70%;
+    height: 50%;
     border-right: 1px solid #d64b4b;
 }
 .text-2{
@@ -338,3 +338,150 @@ header h6{
     padding-left: 40px;
 }
 /* ============================= sb banner style end ============================ */
+
+/* ============================= article style start ============================ */
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.art-img-1{
+    background-image: url('../asset/model.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: last baseline;
+}
+.art-img-2{
+    background-image: url('../asset/life\ style.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: last baseline;
+}
+.art-img-3{
+    background-image: url('../asset/fashion\ trand.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: last baseline;
+}
+.art p{
+    background-color: #f37c7c;
+    margin-left: 30px;
+    padding: 1px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.art-text a:hover{
+    color: #f37c7c !important;
+}
+/* ============================= article style end ============================ */
+
+/* ============================= brand style start ============================ */
+.brand-slide{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.brand-slide img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0px 40px;
+    
+}
+.swiper-button-prev, .swiper-button-next{
+    color: rgb(156, 154, 154);
+    padding: 20px 20px;
+}
+.mySwiper-1{
+    border-top: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+/* ============================= brand style end ============================ */
+
+/* ============================= connection style start ============================ */
+.connection{
+    background-color: #a6a6a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.connection-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-icon{
+    position: relative;
+}
+.connection-form input{
+    background-color: transparent;
+}
+.connection-form input::placeholder{
+    color: #fff;
+}
+.input-icon i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.input-icon input{
+    padding-left: 30px;
+}
+.connection-form button{
+    color: #fff;
+}
+/* ============================= connection style end ============================ */
+
+/* ============================= shipping style start ============================ */
+.shipping{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    border-top: 1px solid rgb(219, 219, 219);
+}
+.shipping i{
+    color: #f06969;
+}
+/* ============================ shipping style end ============================ */
+
+/* ============================= instagram style start ============================ */
+.instagram h5{
+    font-size: 30px;
+}
+.instagram h5 span, a{
+    color: #f06969;
+}
+.insta-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding-top: 50px;
+}

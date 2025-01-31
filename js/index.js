@@ -23,3 +23,24 @@ var swiper = new Swiper(".mySwiper", {
     mousewheel: true,
     keyboard: true,
   });
+
+  var swiper = new Swiper(".mySwiper-1", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    loop: true,
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      200: {
+        spaceBetween: 0,
+      },
+      768: {
+        spaceBetween: 10,
+      },
+    },
+    mousewheel: true,
+    keyboard: true,
+  });

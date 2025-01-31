@@ -65,7 +65,36 @@
 
     /* =============================== tranding now end ============================== */
 
-    /* =============================== collection start ============================== */
+    /* =============================== article start ============================== */
+    .article-container{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    /* =============================== article end ============================== */
+
+    /* =============================== brand start ============================== */
+    .mySwiper-1{
+        display: none !important;
+    }
+    /* ============================== brand end ============================== */
+
+    /* =============================== connection start ============================== */
+    .connection{
+        display: none !important;
+    }
+    /* =============================== connection end ============================== */
+
+    /* =============================== shipping start ============================== */
+    .shipping{
+        flex-direction: column !important;
+    }
+    /* =============================== shipping end ============================== */
+
+    /* =============================== instagram start ============================== */
+    .insta-container{
+        padding-top: 15px !important;
+    }
+    /* =============================== instagram start ============================== */
     
 }
 @media (min-width: 768px) and (max-width: 1199px)
@@ -102,4 +131,20 @@
         grid-template-columns: repeat(2, 1fr) !important;
     }
     /* =============================== tranding now end ============================== */
+
+    /* =============================== article start ============================== */
+    .art-img-1{
+        height: 30vh !important;
+    }
+    .art-img-2{
+        height: 30vh !important;
+    }
+    .art-img-3{
+        height: 30vh !important;
+    }
+    .art p{
+        font-size: 12px !important;
+        margin-left: 10px !important;
+    }
+    /* =============================== article end ============================== */
 }
