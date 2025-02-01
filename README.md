@@ -2,7 +2,9 @@ This is sample a project
 
 Here are some tools I used for is project
 
-Html5
-CSS3
-Bootstrap5
-& little bit javacsript.
+<ul>
+  <i>Html5</i>
+  <li>CSS3</li>
+  <li>Bootstrap5</li>
+  <li>A little bit JS</li>
+</ul>
